@@ -1,0 +1,10 @@
+{
+	"name": "Solitaire",
+	"short_name": "Solitaire",
+	"version": "v1.0.0",
+	"description": "Solitaire card game",
+	"catalogue_url": "",
+	"application_url": "https://hub.docker.com/r/chimenesjr/solitaire",
+	"tags": ["Card game"],
+	"application_documentation_url": "https://hub.docker.com/r/chimenesjr/solitaire"
+}

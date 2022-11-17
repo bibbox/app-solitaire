@@ -1,0 +1,22 @@
+version: '3'
+
+networks:
+    bibbox-default-network:
+      external: true
+
+services:
+  §§INSTANCE-solitaire:
+    image: chimenesjr/solitaire:nginx
+    container_name: §§INSTANCE-solitaire
+    ports:
+    - '8080:80'
+    networks:
+      - bibbox-default-network
+    proxy:
+     TYPE: PRIMARY
+     URLPREFIX: §§INSTANCE
+     TEMPLATE: default
+     DISPLAYNAME: 'Solitaire'  
+     PATH_TO_SOCKET: '/'
+
+

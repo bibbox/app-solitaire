@@ -1,0 +1,15 @@
+version: '3'
+
+networks:
+    bibbox-default-network:
+      external: true
+
+services:
+  bibbox-solitaire:
+    image: chimenesjr/solitaire:nginx
+    container_name: bibbox-solitaire
+    ports:
+    - '8080:80'
+    networks:
+      - bibbox-default-network
+
