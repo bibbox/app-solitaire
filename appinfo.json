@@ -2,7 +2,7 @@
 	"name": "Solitaire",
 	"short_name": "Solitaire",
 	"version": "v1.0.0",
-	"description": "Solitaire card game",
+	"description": "Solitaire is a well known and popular card game",
 	"catalogue_url": "",
 	"application_url": "https://hub.docker.com/r/chimenesjr/solitaire",
 	"tags": ["Card game"],
