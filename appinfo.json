@@ -6,5 +6,6 @@
 	"catalogue_url": "",
 	"application_url": "https://hub.docker.com/r/chimenesjr/solitaire",
 	"tags": ["Card game"],
-	"application_documentation_url": "https://hub.docker.com/r/chimenesjr/solitaire"
+	"application_documentation_url": "https://hub.docker.com/r/chimenesjr/solitaire",
+	"instance_information": "work in progress"
 }
